@@ -189,7 +189,7 @@ dispatch_queue_t queue;
                 [[self liddellContentLabel] setTextColor:[GcColorPickerUtils colorWithHex:customTextColorValue]];
             }
         }
-        [[self liddellContentLabel] setScrollRate:scrollRateValue];
+        [[self liddellContentLabel] setRate:scrollRateValue];
         [[self liddellContentLabel] setFadeLength:5];
         [[self liddellView] addSubview:[self liddellContentLabel]];
 

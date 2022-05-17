@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Liddell-Swift.h"
+#import "MarqueeLabel.h"
 #import <Kitten/libKitten.h>
 #import "GcUniversal/GcColorPickerUtils.h"
 #import "dlfcn.h"
@@ -55,6 +55,7 @@ NSString* customBorderColorValue = @"FFFFFF";
 
 @interface NCNotificationShortLookView : MTTitledPlatterView
 @property(nonatomic, copy)NSArray* icons;
+@property(nonatomic, copy)NSString* title;
 @property(nonatomic, copy)NSString* primaryText;
 @property(nonatomic, copy)NSString* secondaryText;
 @property(nonatomic, retain)UIView* liddellView;

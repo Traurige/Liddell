@@ -1,5 +1,5 @@
 TWEAK_NAME = Liddell
-Liddell_FILES = Liddell.x MarqueeLabel.swift
+Liddell_FILES = Liddell.x MarqueeLabel.m
 Liddell_CFLAGS = -fobjc-arc -DTHEOS_LEAN_AND_MEAN
 Liddell_FRAMEWORKS = UIKit
 Liddell_EXTRA_FRAMEWORKS = Cephei

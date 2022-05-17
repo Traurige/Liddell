@@ -9,7 +9,7 @@ Make your notification banners smaller and add some color to them
 2. Install Liddell
 
 ## Compatibility
-iPhone, iPad and iPod running iOS/iPadOS 14 or later
+iPhone, iPad and iPod running iOS/iPadOS 13 or later
 
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project
@@ -17,7 +17,7 @@ iPhone, iPad and iPod running iOS/iPadOS 14 or later
   - You may want to edit the root `Makefile` to use your Theos SDK and toolchain
 
 ## License
-[MIT](https://github.com/Traurige/Liddell/blob/main/LICENSE)
+[MIT](https://github.com/Traurige/Liddell/blob/main-objective-c/LICENSE)
 
 ## Credits
   - Code Base/Idea
